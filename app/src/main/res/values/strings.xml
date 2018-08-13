@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">C Lab Programs</string>
+
+    <string-array name="ProgramList">
+
+        <item>HelloWorld</item>
+
+        <item>Add Two Numbers</item>
+
+        <item>Reverse Number</item>
+
+        <item>Swap Numbers</item>
+
+        <item>Even or Odd</item>
+
+        <item>Fibbonacci Series</item>
+
+        <item>ArmStrong Number</item>
+
+        <item>Palindrome</item>
+
+        <item>Perfect Number</item>
+
+        <item>Check Number is Prime</item>
+
+        <item>Print Prime Numbers</item>
+
+        <item>Power of a Number</item>
+
+        <item>Factorial of a Number</item>
+
+        <item>Strong Number</item>
+
+        <item>LCM and GCD of Number</item>
+
+        <item>SquareRoot of Number</item>
+
+        <item>Gross Salary</item>
+
+        <item>Calculator</item>
+
+        <item>Roots of Quadratic Equation</item>
+
+        <item>SimpleInterest</item>
+
+        <item>Temperature Converter</item>
+
+        <item>Time Converter</item>
+
+        <item>Distance Converter</item>
+
+        <item>LeapYear</item>
+
+        <item>PrintTable</item>
+
+        <item>Area and Circumfrence of a Circle</item>
+
+        <item>Area of Triangle</item>
+
+        <item>Binary to Decimal</item>
+
+        <item>Decimal to Octal</item>
+
+        <item>Decimal to Hexadecimal</item>
+
+        <item>Shutdown Computer</item>
+
+        <item>IP Address</item>
+
+        <item>EvenOdd nos in an Array</item>
+
+        <item>Max no in an Array</item>
+
+        <item>Reverse an Array</item>
+
+        <item>Swap two Arrays</item>
+
+        <item>Matrix Subtraction</item>
+
+        <item>Sum of Diagonal of Matrix</item>
+
+        <item>Matrix Multiplication</item>
+
+        <item>Floyd Triangle Pattern</item>
+
+        <item>Star Triangle Pattern</item>
+
+        <item>Star Pattern2</item>
+
+        <item>Alphabetical Pattern1</item>
+
+        <item>Alphabetical Pattern2</item>
+
+        <item>Number pattern</item>
+
+        <item>ASCII value</item>
+
+        <item>Check uppercase or lowercase</item>
+
+        <item>Convert upperCase into LowerCase</item>
+
+        <item>String Length without using String library function</item>
+
+        <item>String Length using library function</item>
+
+        <item>String Concatenation</item>
+
+        <item>Write Data To File</item>
+
+        <item>Read From File</item>
+    </string-array>
+</resources>

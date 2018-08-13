@@ -1,0 +1,57 @@
+<div style="background:#ffffff ; overflow:auto;width:auto;padding:.2em .6em;">
+<div style="width:auto;padding:.2em .6em;border:2px solid #eeeeee;background:#ffffff;box-shadow:1px 1px 1px 1px grey;overflow:hidden;background:#ffffff">
+<span style="color: #226666;padding:.2em .6em">/*Program Merge Content of two Files.*/</span>
+</div>
+<pre style="margin: 0; line-height: 125%">
+<div style="width:auto;margin:20px 0px 0px 0px;padding:.2em .6em;border:2px solid #eeeeee;background:#ffffff;box-shadow: 1px 1px 1px 1px grey;overflow:scroll;background:#ffffff">
+<span style="color: brown">#include&lt;stdio.h&gt; </span>
+<span style="color: brown">#include&lt;stdlib.h> </span>
+ 
+<span style="color: #0067BB; font-weight: bold">int</span> <span style="color: red; font-weight: bold">main()</span>
+{
+   <span style="color: #0067BB; font-weight: bold">FILE</span> *fs1, *fs2, *ft;
+ 
+   char ch, file1[20], file2[20], file3[20];
+ 
+   printf(<span style="color: #32CD32">"Enter name of first file\n</span>");
+   gets(file1);
+ 
+   printf("<span style="color: #32CD32">Enter name of second file\n</span>");
+   gets(file2);
+ 
+   printf("<span style="color: #32CD32">Enter name of file which will store contents of two files\n</span>");
+   gets(file3);
+ 
+   fs1 = fopen(file1,"r");
+   fs2 = fopen(file2,"r");
+ 
+   if( fs1 == NULL || fs2 == NULL )
+   {
+      
+      printf("<span style="color: #32CD32">ERROR\n</span>");
+      exit(0);
+   }
+ 
+   ft = fopen(file3,"w");
+ 
+   if( ft == NULL )
+   {
+      
+      printf("<span style="color: #32CD32">ERROR\n</span>");
+      exit(0);
+   }
+ 
+   while( ( ch = fgetc(fs1) ) != EOF )
+      fputc(ch,ft);
+ 
+   while( ( ch = fgetc(fs2) ) != EOF )
+      fputc(ch,ft);
+ 
+   printf("<span style="color: #32CD32">Two files merged into %s file successfully.\n</span>",file3);
+ 
+   fclose(fs1);
+   fclose(fs2);
+   fclose(ft);
+ 
+   return 0;
+}

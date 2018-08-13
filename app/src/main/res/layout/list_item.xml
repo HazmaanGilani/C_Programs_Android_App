@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9c000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listItem"
+        android:background="#7986cc"
+        android:text="Armstrong number"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        android:typeface="serif"
+        android:textColor="#ffffff"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp" />
+</LinearLayout>
