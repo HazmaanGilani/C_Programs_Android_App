@@ -1,6 +1,6 @@
 # C_Programs_Android_App
 ### App Contains the basic and most asked C Programs in Practical Examination of College's in an organised manner.
-##### PlayStore Link:https://play.google.com/store/apps/details?id=com.cprograms.mprojectnextstudio.cprograms
+##### App available on PlayStore:https://play.google.com/store/apps/details?id=com.cprograms.mprojectnextstudio.cprograms
 
 ![image](https://user-images.githubusercontent.com/40237464/45999106-6c6be980-c0c2-11e8-940e-c3606bd1c787.png)
 
