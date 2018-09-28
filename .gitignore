@@ -6,4 +6,4 @@
 .DS_Store
 /build
 /captures
-*.rb linguist-language=Java
+static/* linguist-vendored
