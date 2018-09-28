@@ -6,5 +6,4 @@
 .DS_Store
 /build
 /captures
-assets/* linguist-vendored
-*.HTML linguist-language=Java
+app/src/main/assets/* linguist-vendored
