@@ -6,4 +6,4 @@
 .DS_Store
 /build
 /captures
-*.html linguist-language=Java
+*.HTML linguist-language=Java
